@@ -1,1 +1,1 @@
-# KaiserFechner.github.io
+# KaiserFechner
