@@ -1,0 +1,43 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer; /* Changes the cursor to a hand when hovered over */
+}
+.box:hover {
+    background-color: rgb(240, 240, 240);
+}
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.box-image {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+.awhref {
+    text-decoration: none;
+    color: inherit;
+
+}
